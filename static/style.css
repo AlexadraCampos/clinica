@@ -9,6 +9,7 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f8f8f8;
     color: #333;
+    display: grid;
 }
 
 nav {
@@ -102,6 +103,7 @@ input, select, button {
     margin-top: 5px;
     border: 1px solid #ccc;
     border-radius: 10px;
+    
 }
 
 button {
