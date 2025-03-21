@@ -11,10 +11,8 @@ app.config.update(
 # 🔹 Configurar CORS para permitir requisições do frontend
 CORS(app, origins=["https://ecommercemodelosite-7tztgdygq-alexandras-projects-d68fae16.vercel.app"])
 
-@app.route('/')
-def home():
-    return "Flask rodando no Vercel!"
 
+@app.route('/')
 @app.route('/quemsomos')
 def quemsomos():
     return render_template("quemsomos.html")
