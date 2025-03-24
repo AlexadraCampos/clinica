@@ -12,6 +12,12 @@ body {
     display: grid;
 }
 
+.about-image{
+    max-width: 740px; 
+    max-height: 1101.5px;
+
+}
+
 nav {
     background-color: #ffcad4;
     padding: 10px 0;
