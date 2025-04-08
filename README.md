@@ -1,4 +1,4 @@
-Este é o frontend de um e-commerce para uma clínica, desenvolvido com Python e Flask. O site foi projetado para proporcionar uma navegação simples e moderna, 
+Este é o frontend  para uma clínica ficticia, desenvolvido com Python e Flask. O site foi projetado para proporcionar uma navegação simples e moderna, 
 permitindo aos usuários conhecer os serviços oferecidos, visualizar antes e depois de tratamentos, acompanhar novidades e agendar consultas.
 🌟 Funcionalidades
 

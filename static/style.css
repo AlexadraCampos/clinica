@@ -56,6 +56,13 @@ h1 {
     color: #ff5e78;
 }
 
+p {
+    line-height: 1.5;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+
+  }
+
 section {
     max-width: 800px;
     margin: 50px auto;
@@ -69,11 +76,11 @@ section {
 .galeria {
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: -30px;
     padding: 40px;
     width: 100%;
-    margin: 0 auto;
-    background-color: #880707;
+    margin: -3 auto;
+    background-color: #bd8585;
     justify-content: center;
     border-radius: 10px;
 }
