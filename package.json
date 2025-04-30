@@ -1,5 +1,17 @@
 {
+  "name": "clinica",
+  "version": "1.0.0",
+  "main": "Projeto Clinica",
+  "scripts": {
+    "start": "node inde.js"
+  
+},
+
   "dependencies": {
     "cors": "^2.8.5"
-  }
+  
+},
+  "author": "Alexandra",
+  "license": "MIT"
+
 }

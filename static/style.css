@@ -74,10 +74,10 @@ section {
 .galeria {
   display: flex;
   flex-wrap: wrap;
-  gap: -30px;
+  gap: 30px;
   padding: 40px;
   width: 100%;
-  margin: -3 auto;
+  margin: 30px auto;
   background-color: #bd8585;
   justify-content: center;
   border-radius: 10px;
@@ -116,7 +116,9 @@ button {
   margin-top: 5px;
   border: 1px solid #ccc;
   border-radius: 10px;
+ 
 }
+
 
 button {
   background-color: #ff5e78;
@@ -133,17 +135,27 @@ button:hover {
   background-color: #e04a64;
 }
 
+form label {
+display: block;
+margin-bottom: 6px; 
+}
+
+form input {
+display: block;
+margin-bottom: 20px; 
+}
+
+
 footer {
   text-align: center;
   padding: 20px 0;
   background-color: #ffcad4;
   width: 100%;
-  position: center;
   margin-top: 250px;
 }
 
 footer p {
-  margin: 100px;
+  margin: 30px;
 }
 
 /* Responsividade */
@@ -171,4 +183,16 @@ footer p {
     display: flex;
     flex-direction: column;
   }
+
+  .menu-agenda{
+    max-width: 46%;
+  }
+
 }
+
+@media (max-width: 500px) {
+  
+  .menu-agenda{
+  max-width: 46%;
+}
+}  
