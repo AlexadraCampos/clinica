@@ -69,7 +69,12 @@ section {
   border-radius: 20px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
+.tex-tratamento p,
+.tex-tratamento h2{
+  margin: 10px;
 
+
+}
 /* Estilização da galeria */
 .galeria {
   display: flex;
@@ -185,14 +190,16 @@ footer p {
   }
 
   .menu-agenda{
-    max-width: 46%;
+    max-width: 70%;
+  }
+
+  .tex-tratamento{
+
+  }
+
+  .tratamento{
+
   }
 
 }
 
-@media (max-width: 500px) {
-  
-  .menu-agenda{
-  max-width: 46%;
-}
-}  
