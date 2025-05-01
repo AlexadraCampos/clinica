@@ -5,22 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tratamentos - Clínica Estética</title>
     <link rel="stylesheet" href="/static/style.css">
+    <link rel="stylesheet" href="/static/btn.css"/>
     <link rel="icon" type="image/png" href="/static/image/icon.png">
 </head>
 <body>
     <nav>
-        <ul class="menu">
-            <li><a href="/">Início</a></li>
-            <li><a href="/tratamentos">Tratamentos</a></li>
-            <li><a href="/antes-depois">Antes e Depois</a></li>
-            <li><a href="/novidades">Novidades</a></li>
-            <li><a href="/agenda">Agenda</a></li>
+        <div id="id-menu">
+        <div id="menu-bar" onclick="menuOnClick()">
+          <div id="bar1" class="bar"></div>
+          <div id="bar2" class="bar"></div>
+          <div id="bar3" class="bar"></div>
+        </div>
+  
+        <ul class="menu nav" id="nav">
+          <li><a href="/">Início</a></li>
+          <li><a href="/tratamentos">Tratamentos</a></li>
+          <li><a href="/antes-depois">Antes e Depois</a></li>
+          <li><a href="/novidades">Novidades</a></li>
+          <li><a href="/agenda">Agenda</a></li>
         </ul>
-    </nav>
+      </nav>
     <header>
         <h1>Nossos Tratamentos</h1>
     </header>
-    <section class="tex-tratamento">
+    <section>
         <div class="tratamento">
             <img src="https://img.freepik.com/fotos-gratis/esteticista-com-cliente-no-salao-para-rotina-de-cuidados-com-o-rosto_23-2148875460.jpg?ga=GA1.1.970398660.1741818325&semt=ais_hybrid&w=740" alt="Limpeza de Pele" width="720" height="600">
             <h2>Limpeza de Pele</h2>

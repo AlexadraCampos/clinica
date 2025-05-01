@@ -193,12 +193,18 @@ footer p {
     max-width: 70%;
   }
 
-  .tex-tratamento{
+  .tratamento{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
 
   }
 
-  .tratamento{
-
+  .tratamento img{
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
   }
 
 }
