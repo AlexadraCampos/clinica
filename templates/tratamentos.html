@@ -5,26 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tratamentos - Clínica Estética</title>
     <link rel="stylesheet" href="/static/style.css">
-    <link rel="stylesheet" href="/static/btn.css"/>
     <link rel="icon" type="image/png" href="/static/image/icon.png">
 </head>
 <body>
     <nav>
-        <div id="id-menu">
-        <div id="menu-bar" onclick="menuOnClick()">
-          <div id="bar1" class="bar"></div>
-          <div id="bar2" class="bar"></div>
-          <div id="bar3" class="bar"></div>
-        </div>
+        <!-- Botão hamburguer -->
+        <div class="menu">
   
-        <ul class="menu nav" id="nav">
-          <li><a href="/">Início</a></li>
-          <li><a href="/tratamentos">Tratamentos</a></li>
-          <li><a href="/antes-depois">Antes e Depois</a></li>
-          <li><a href="/novidades">Novidades</a></li>
-          <li><a href="/agenda">Agenda</a></li>
-        </ul>
-      </nav>
+          <div class="btn">
+            <div class="bar"></div>
+             <div class="bar"></div>
+            <div class="bar"></div>
+          </div>
+  
+          <ul class="menu-desktop" id="nav">
+            <li><a href="/">Início</a></li>
+            <li><a href="/tratamentos">Tratamentos</a></li>
+            <li><a href="/antes-depois">Antes e Depois</a></li>
+            <li><a href="/novidades">Novidades</a></li>
+            <li><a href="/agenda">Agenda</a></li>
+          </ul>
+        </div>
+      </nav>      
     <header>
         <h1>Nossos Tratamentos</h1>
     </header>
@@ -49,5 +51,7 @@
     <footer>
         <p>&copy; 2025 Clínica Estética. Todos os direitos reservados.</p>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>   
 </body>
 </html>

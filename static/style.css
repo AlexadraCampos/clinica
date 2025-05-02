@@ -69,12 +69,12 @@ section {
   border-radius: 20px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
+
 .tex-tratamento p,
 .tex-tratamento h2{
   margin: 10px;
-
-
 }
+
 /* Estilização da galeria */
 .galeria {
   display: flex;
@@ -150,7 +150,6 @@ display: block;
 margin-bottom: 20px; 
 }
 
-
 footer {
   text-align: center;
   padding: 20px 0;
@@ -164,7 +163,7 @@ footer p {
 }
 
 /* Responsividade */
-@media (max-width: 768px) {
+@media (max-width: 769px) {
   .galeria {
     flex-direction: column;
     align-items: center;
@@ -184,7 +183,7 @@ footer p {
     height: 100%;
   }
 
-  .menu {
+  .menu-desktop {
     display: flex;
     flex-direction: column;
   }
@@ -207,5 +206,78 @@ footer p {
     border-radius: 10px;
   }
 
+  /* css do hamburguer mobile */
+  body {
+    padding: 50px;
+}
+
+li {
+    list-style: none;
+}
+
+.menu {
+    display: inline-block;
+    position: relative;
+}
+
+.menu .btn {
+    display: block;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.menu .btn .bar {
+    width: 30px;
+    height: 5px;
+    background: #000;
+    margin-bottom: 5px;
+}
+
+.menu .btn .bar:last-child {
+    margin-bottom: 0px;
+}
+
+.menu-desktop {
+    display: none; 
+    position: absolute;
+    top: 50px;
+    left: 0;
+    background-color: whitesmoke;
+    border: 3px solid #000;
+    opacity: 0;
+    transform: scale(0.7);
+    transition: opacity 0.3s, transform 0.3s; 
+}
+
+.menu_show {
+    display: block; 
+    opacity: 1;
+    transform: scale(1);
+}
+
+.menu a {
+    font-family: 'Open Sans';
+    color: #222;
+    padding: 10px 20px;
+    display: block;
+    border-bottom: 1px solid #ddd;
+    white-space: nowrap;
+}
+
+.menu li:last-child a {
+    border-bottom: 0px;
+}
+
+.menu a:hover {
+    color: whitesmoke;
+    background: #000;
+}
+   
+  .menu_show {
+    visibility: visible;
+    opacity: 1;
+    -webkit-transform: scale(1);
+    
+  }
 }
 
