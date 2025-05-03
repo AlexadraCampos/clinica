@@ -183,11 +183,6 @@ footer p {
     height: 100%;
   }
 
-  .menu-desktop {
-    display: flex;
-    flex-direction: column;
-  }
-
   .menu-agenda{
     max-width: 70%;
   }
@@ -207,10 +202,6 @@ footer p {
   }
 
   /* css do hamburguer mobile */
-  body {
-    padding: 50px;
-}
-
 li {
     list-style: none;
 }
@@ -269,8 +260,9 @@ li {
 }
 
 .menu a:hover {
-    color: whitesmoke;
-    background: #000;
+    color: rgb(189, 58, 80);
+    background-color: #ffe4ec;
+
 }
    
   .menu_show {
